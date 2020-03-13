@@ -31,7 +31,6 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
 .then(() => {
     newArray.forEach(function(X) {
         parentTwo.append(Tab(X));
-        console.log(X);
     })
 })
 .catch((error) => {

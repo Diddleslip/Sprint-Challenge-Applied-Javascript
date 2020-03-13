@@ -11,19 +11,19 @@
 
 function Header() {
     let header = document.createElement("div"),
-        spanOne = document.createElement("span"),
+        span = document.createElement("span"),
         h1 = document.createElement("h1"),
         spanTwo = document.createElement("span");
 
         header.classList.add("header");
-        spanOne.classList.add("date");
+        span.classList.add("date");
         spanTwo.classList.add("temp");
 
-        spanOne.textContent = "SMARCH 28, 2019";
+        span.textContent = "SMARCH 28, 2019";
         h1.textContent = "Lambda Times";
         spanTwo.textContent = "98°";
 
-        header.append(spanOne, h1, spanTwo);
+        header.append(span, h1, spanTwo);
 
     return header;
 }
